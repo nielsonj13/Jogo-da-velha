@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="jvd.css">
+</head>
+<body class="fundo">
+    <div class="card fundo2" id="login">
+        <div class="card-body">
+            <form>
+                <div id="mostardor">
+                    <h2 class="flutuando">Vez do jogador:</h2>
+                    <img src="imagens/X.png">
+                </div>
+                <div class="tabuleiro">
+                    <div id="a1" class="espaco" jogada=""></div>
+                    <div id="a2" class="espaco" jogada=""></div>
+                    <div id="a3" class="espaco" jogada=""></div>
+                    <div id="b1" class="espaco" jogada=""></div>
+                    <div id="b2" class="espaco" jogada=""></div>
+                    <div id="b3" class="espaco" jogada=""></div>
+                    <div id="c1" class="espaco" jogada=""></div>
+                    <div id="c2" class="espaco" jogada=""></div>
+                    <div id="c3" class="espaco" jogada=""></div>
+                </div>
+                <button type="button" class="btn btn-outline-danger" onclick="window.location.reload();">Reiniciar Jogo</button>
+            </form>
+        </div>
+    </div>
+    <script src="jvd.js"></script>
+</body>
+</html>
